@@ -1,9 +1,6 @@
 require "test_helper"
 
 class UsersSignupTest < ActionDispatch::IntegrationTest
-  # test "the truth" do
-  #   assert true
-  # end
   
   test "invalid signup information" do
     get signup_path
@@ -27,6 +24,5 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     follow_redirect!
     assert_template 'users/show'
     assert is_logged_in?
-
   end
 end
