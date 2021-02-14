@@ -7,6 +7,7 @@ by [Michael Hartl](https://www.michaelhartl.com/).
 
 ## Example account for the site
 User Email: kieron560@gmail.com 
+
 Password: asdasd
 
 If you wish to create your own account to try, feel free to do so! However, the 
